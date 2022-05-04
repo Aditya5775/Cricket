@@ -1,0 +1,124 @@
+.h1{
+    color: rgb(255, 0, 217);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align:center;
+}
+body{
+    background-color: antiquewhite;
+}
+#wrapper{
+    width: 100%;
+    padding: 0 auto;
+    /* border: 5px solid rgb(265, 81, 3); */
+    border: 5PX solid red;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    min-height: 100vh;
+    background-image: url("https://www.hdnicewallpapers.com/Walls/Big/Cricket/Rohit_Sharma_in_Cricket_World_Cup_2019_4K_Photo.jpg");
+}
+a{
+    text-decoration: none;
+}
+.ul1{
+    font-size: 35px;
+    /* background-color: crimson; */
+    padding: 0px 55px 0px 55px    ; 
+}
+.li1{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 55px 0px 55px;
+    margin: 0px 55px 0px 55px ;
+    color:rgb(0, 255, 94);
+    
+}
+
+.li1:hover{
+    background-color: orangered;
+}
+.all{
+    width: 65%;
+    margin-right:5%;
+    float: right;
+}
+.cric{
+    font-size: 25px;
+    text-align: justify;
+    width: 50%;
+    float: right;
+    font-weight: bolder;
+}
+#ply{
+    font-size: 30px;
+    float: right;
+    width: 300px;
+    margin: 20px;
+    color: black;
+    background-color: rgb(8, 238, 207);
+}
+/* ----------------------------------------- */
+/* rohit page */
+
+/*rohit about */
+#bdy{
+    background-image: url("https://www.hdnicewallpapers.com/Walls/Big/Cricket/Rohit_Sharma_Indian_Cricketer_in_Cricket_World_Cup_2019_4K_Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+#head{
+    color: rgb(6, 138, 253);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgba(245, 245, 12, 0.975);
+}
+/* ---------------------------------------- */
+
+/* rohit record */
+#bdy1{
+    background-image: url("https://media.gettyimages.com/photos/rohit-sharma-of-india-plays-a-shot-during-the-third-t20-international-picture-id1354680835?s=2048x2048");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 1920px 1080px;
+}
+#head1{
+    text-align: center;
+    color: rgb(9, 245, 119);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+.rec{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 37px;
+    color:lightgreen ;
+}
+/* ------------------------------------ */
+
+/* rohit achievements */
+.bdy2{
+    background-image: url("https://media.gettyimages.com/photos/rohit-sharma-of-india-poses-after-being-named-player-of-the-match-picture-id1351105566?s=2048x2048");
+}
+.head2{
+    text-align: center;
+    color:violet;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ul2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:rgb(6, 224, 248);
+}
+.s{
+    align-items: right;
+}
+/* ------------------------------------------- */

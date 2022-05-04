@@ -1,0 +1,124 @@
+.h1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align:center;
+}
+body{
+    background-color: antiquewhite;
+}
+#wrapper{
+    width: 100%;
+    padding: 0 auto;
+    /* border: 5px solid rgb(265, 81, 3); */
+    border: 5PX solid red;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    min-height: 100vh;
+    background-image: url("https://media.gettyimages.com/photos/india-captain-virat-kohli-waits-for-the-toss-ahead-of-the-specsavers-picture-id1018607804?s=2048x2048");
+}
+a{
+    text-decoration: none;
+}
+.ul1{
+    font-size: 35px;
+    /* background-color: crimson; */
+    padding: 0px 55px 0px 55px    ; 
+}
+.li1{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 55px 0px 55px;
+    margin: 0px 55px 0px 55px ;
+    color: black;
+    
+}
+
+.li1:hover{
+    background-color: orangered;
+}
+.all{
+    width: 65%;
+    margin-right:5%;
+    float: right;
+}
+.cric{
+    font-size: 25px;
+    text-align: justify;
+    width: 50%;
+    float: right;
+    font-weight: bolder;
+}
+#ply{
+    font-size: 30px;
+    float: right;
+    width: 300px;
+    margin: 20px;
+    color: black;
+    background-color: rgb(8, 238, 207);
+}
+/* ----------------------------------------- */
+/* kohli page */
+
+/* kohli about */
+#bdy{
+    background-image: url("https://st3.cricketcountry.com//wp-content/uploads/2016/04/Virat-Kohli-hd-photos.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+#head{
+    color: rgb(253, 6, 6);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgba(12, 245, 15, 0.611);
+}
+/* ---------------------------------------- */
+
+/* kohli record */
+#bdy1{
+    background-image: url("https://media.gettyimages.com/photos/india-batsman-virat-kohli-celebrates-reaching-his-century-during-day-picture-id1020059034?s=2048x2048");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 1920px 1080px;
+}
+#head1{
+    text-align: center;
+    color: rgb(245, 64, 9);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+.rec{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(133, 237, 7);
+}
+/* ------------------------------------ */
+
+/* kohli achievements */
+.bdy2{
+    background-image: url("https://cdn-images.spcafe.in/img/es3/articles/Cricket_1/kohli_responsible_iplt20_ipl2020_iplt20.jpg");
+}
+.head2{
+    text-align: center;
+    color:firebrick;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ul2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:rgb(248, 123, 6);
+}
+.s{
+    align-items: right;
+}
+/* ------------------------------------------- */

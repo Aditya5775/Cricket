@@ -1,0 +1,124 @@
+.h1{
+    color: rgb(238, 255, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align:center;
+}
+body{
+    background-color: antiquewhite;
+}
+#wrapper{
+    width: 100%;
+    padding: 0 auto;
+    /* border: 5px solid rgb(265, 81, 3); */
+    border: 5PX solid red;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    min-height: 100vh;
+    background-image: url("https://www.sportzcraazy.com/wp-content/uploads/2020/08/post_image_456594c.jpg");
+}
+a{
+    text-decoration: none;
+}
+.ul1{
+    font-size: 35px;
+    /* background-color: crimson; */
+    padding: 0px 55px 0px 55px    ; 
+}
+.li1{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 55px 0px 55px;
+    margin: 0px 55px 0px 55px ;
+    color: rgb(238, 255, 0);
+    
+}
+
+.li1:hover{
+    background-color: orangered;
+}
+.all{
+    width: 65%;
+    margin-right:5%;
+    float: right;
+}
+.cric{
+    font-size: 25px;
+    text-align: justify;
+    width: 50%;
+    float: right;
+    font-weight: bolder;
+}
+#ply{
+    font-size: 30px;
+    float: right;
+    width: 300px;
+    margin: 20px;
+    color: black;
+    background-color: rgb(8, 238, 207);
+}
+/* ----------------------------------------- */
+/* faf page */
+
+/*faf about */
+#bdy{
+    background-image: url("https://media.gettyimages.com/photos/faf-du-plessis-of-south-africa-celebrates-his-century-during-the-picture-id1160410037?s=2048x2048");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+#head{
+    color: rgb(238, 255, 0);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(236, 96, 8);
+}
+/* ---------------------------------------- */
+
+/* faf record */
+#bdy1{
+    background-image: url("https://media.gettyimages.com/photos/faf-du-plessis-of-south-africa-celebrates-winning-game-five-of-the-picture-id647697720?s=2048x2048");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 1920px 1080px;
+}
+#head1{
+    text-align: center;
+    color: rgb(198, 245, 9);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+.rec{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:rgb(10, 175, 225) ;
+}
+/* ------------------------------------ */
+
+/* faf achievements */
+.bdy2{
+    background-image: url("https://media.gettyimages.com/photos/faf-du-plessis-of-the-chennai-super-kings-attempts-to-take-a-catch-picture-id1148226760?s=2048x2048");
+}
+.head2{
+    text-align: center;
+    color:rgb(249, 5, 216);
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ul2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color:rgb(39, 230, 157);
+}
+.s{
+    align-items: right;
+}
+/* ------------------------------------------- */

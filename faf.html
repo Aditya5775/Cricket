@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./faf.css">
+    <title>FAF DU PLESSIS</title>
+</head>
+<body>
+    <div id="wrapper">
+    <div class="h1">
+        <h1>FAF DU PLESSIS</h1>
+    </div>
+    <ul class="ul1">
+        <a href="https://www.gettyimages.in/photos/francois-du-plessis" >
+            <li class="li1">Images</li>
+        </a>
+       <a href="./fafpage.html"> <li class="li1">About</li></a>
+        <a href="./fafpage1.html"> 
+            <li class="li1">Records</li></a>
+        <a href="https://www.youtube.com/results?search_query=faf+batting">
+        <li class="li1"> Videos</li></a>
+        <a href="./fafpage2.html">
+        <li class="li1" >Achievements</li>
+        </a>
+    </ul>
+    <div class="all">
+    <!-- <div class="cric">
+        <p>
+            Cricket is a bat-and-ball game played between two teams of eleven players each on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The game proceeds when a player on the fielding team, called the bowler, "bowls" (propels) the ball from one end of the pitch towards the wicket at the other end, with an "over" being completed once they have legally done so six times. The batting side has one player at each end of the pitch, with the player at the opposite end of the pitch from the bowler aiming to strike the ball with a bat. The batting side scores runs either when the ball reaches the boundary of the field, or when the two batters swap ends of the pitch, which results in one run. The fielding side's aim is to prevent run-scoring and dismiss each batter (so they are "out", and are said to have "lost their wicket"). Means of dismissal include being bowled, when the bowled ball hits the stumps and dislodges the bails, and by the fielding side either catching a hit ball before it touches the ground, or hitting a wicket with the ball before a batter can cross the crease line in front of the wicket to complete a run. When ten batters have been dismissed, the innings ends and the teams swap roles. The game is adjudicated by two umpires, aided by a third umpire and match referee in international matches.
+        </p>
+    </div> -->
+    </div>
+    <div class="s">
+        <select name="players" id="ply">
+        <option value="Select ">Select Player</option>
+        <option value="Home" id="Home">Home</option>
+        <option value="Dhoni" id="Dhoni">MS Dhoni</option>
+        <option value="Kohli" id="Kohli">Virat Kohli</option>
+        <option value="Rohit" id="Rohit">Rohit Sharma</option>
+        <option value="Jadeja" id="Jadeja">Ravindra Jadeja</option>
+        </select>
+    </div>
+    <script>
+        
+       document
+         .getElementById("ply")
+         .addEventListener("change", function () {
+           val = document.getElementById("ply");
+ 
+           console.log(val.value);
+         
+           if (val.value ==="Dhoni") {
+             window.open("./dhoni.html", "_self");
+           }
+           else if(val.value === "Kohli"){
+               window.open("./kohli.html", "_self");
+             }
+             else if(val.value === "Rohit"){
+             window.open("./rohit.html", "_self"); } 
+
+             else if(val.value === "Home"){
+               window.open("./Index.html", "_self");
+             }
+             else{
+               window.open("./jadeja.html", "_self");
+             }
+ 
+         });
+     </script>  
+</body>
+</html>

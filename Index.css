@@ -1,0 +1,129 @@
+.h1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align:center;
+}
+body{
+    background-color: antiquewhite;
+}
+#wrapper{
+    width: 100%;
+    padding: 0 auto;
+    /* border: 5px solid rgb(265, 81, 3); */
+    border: 5PX solid red;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    min-height: 100vh;
+    background-image: url("https://cricketaddictor.gumlet.io/wp-content/uploads/2021/10/Valletta-Cup-T20-Dream11-Prediction-Fantasy-Cricket-Tips-Dream11-Team.jpg?compress=true&quality=80&w=800&dpr=2.6");
+}
+a{
+    text-decoration: none;
+}
+.ul1{
+    font-size: 35px;
+    background-color: crimson;
+    padding: 0px 55px 0px 55px    ; 
+}
+.li1{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 55px 0px 55px;
+    margin: 0px 55px 0px 55px ;
+    color: black;
+    
+}
+
+.li1:hover{
+    background-color: orangered;
+}
+.all{
+    width: 65%;
+    margin-right:5%;
+    float: right;
+}
+.cric{
+    font-size: 25px;
+    text-align: justify;
+    width: 50%;
+    float: right;
+    font-weight: bolder;
+}
+#ply{
+    font-size: 30px;
+    float: left;
+    width: 300px;
+    margin: 20px;
+    color: black;
+    background-color: rgb(8, 238, 207);
+}
+/* ----------------------------------------- */
+/* dhoni page */
+
+/* dhoni about */
+#bdy{
+    background-image: url("https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/328800/328884.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+#head{
+    color: rgb(253, 253, 6);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: rgb(253, 1, 43);
+}
+/* ---------------------------------------- */
+
+/* dhoni record */
+#bdy1{
+    background-image: url("https://media.gettyimages.com/photos/dhoni-of-the-chennai-super-kings-hits-out-during-the-indian-premier-picture-id1148242503?s=2048x2048");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 2300px 1900px;
+}
+#head1{
+    text-align: center;
+    color: rgb(0, 140, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+.rec{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(77, 250, 8);
+}
+/* ------------------------------------ */
+
+/* dhoni achievements */
+.bdy2{
+    background-image: url("https://media.gettyimages.com/photos/indias-cricket-team-captain-mahendra-singh-dhoni-poses-with-the-icc-picture-id111487856?s=2048x2048");
+}
+.head2{
+    text-align: center;
+    color:teal ;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:cadetblue;
+}
+.ul2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:rgb(248, 6, 135);
+}
+.s{
+    align-items: left;
+}
+/* ------------------------------------------- */
